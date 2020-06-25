@@ -1,0 +1,16 @@
+.search {
+    /* width: 100%; */
+    position: relative;
+    display: flex;
+    margin: auto;
+    }
+
+.extra {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 40px;
+}
+
+#banner {
+    background-image: url("images/banner.jpg");
+}
