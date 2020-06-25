@@ -12,7 +12,7 @@ class Home extends Component {
             recommendations: [],
             value: { min: 0.2, max: 0.8 },
             client_id: '878a266c1fb44e9f9e030135f07c6876',
-            client_secret: 'f64c8b888d1d40eeabbbf162f6650b2b',
+            client_secret: process.env.CLIENT_SECRET,
         }
         
         this.searchTrack = this.searchTrack.bind(this)
